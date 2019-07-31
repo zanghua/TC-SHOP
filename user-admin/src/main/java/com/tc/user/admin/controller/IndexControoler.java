@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 2019/7/31 10:01
  */
 @Controller
-@RequestMapping("/")
+@RequestMapping({"/",""})
 public class IndexControoler {
     @RequestMapping
     public String login() {
